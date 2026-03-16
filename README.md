@@ -26,3 +26,11 @@ The objectives of this project were to:
 ![PACF Plot](PACF.png)
 ![ARIMA Reading](ARIMAGraph.png)
 ![Prediction](Forecast.png)
+
+## Summary of Findings and Observations
+
+The historical analysis of FORTIS stock data shows noticeable fluctuations in the closing price over the observed time period. The stock experienced an upward trend during the middle portion of the dataset, followed by a decline and increased volatility in the later months. 
+
+The Augmented Dickey-Fuller (ADF) test indicated that the original time series was non-stationary, which required differencing before applying the ARIMA model. After differencing, the series became more stable, allowing the ARIMA model to be fitted appropriately.
+
+Based on the ARIMA model forecasting results, the predicted closing prices for the next 30 trading days remain relatively stable around the most recent observed price levels. This suggests that the model does not indicate a strong upward or downward trend in the immediate future. However, since stock prices are influenced by many external factors such as market conditions, company performance, and economic events, the forecast should be interpreted as a statistical estimate rather than a guaranteed prediction.
