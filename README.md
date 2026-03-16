@@ -21,16 +21,3 @@ The objectives of this project were to:
 
 Dataset file:
 - `data/Quote-Equity-FORTIS-EQ-13-03-2025-13-03-2026.csv`
-
----
-
-## Repository Structure
-
-```text
-stock-data-analytics/
-├── data/
-├── notebooks/
-├── outputs/
-├── README.md
-├── requirements.txt
-└── .gitignore
