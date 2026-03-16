@@ -15,9 +15,14 @@ The objectives of this project were to:
 ---
 
 ## Dataset
+- `data/Quote-Equity-FORTIS-EQ-13-03-2025-13-03-2026.csv`
 - **Stock:** FORTIS
 - **Source Format:** CSV
 - **Date Range:** 13-Mar-2025 to 13-Mar-2026
 
-Dataset file:
-- `data/Quote-Equity-FORTIS-EQ-13-03-2025-13-03-2026.csv`
+## Graphs
+![Overview](Graph1.png)
+![ACF Plot](ACF.png)
+![PACF Plot](PACF.png)
+![ARIMA Reading](ARIMAGraph.png)
+![Prediction](Forecast.png)
